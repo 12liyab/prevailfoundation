@@ -48,7 +48,7 @@ const AboutUs = () => {
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="animate-fade-in">
             <img 
-              src="/lovable-uploads/28a7115f-c755-4db8-b44b-3bd61b9a8cea.png" 
+              src="/lovable-uploads/Prevail_Logo-reverse.png" 
               alt="Prevail Foundation Logo" 
               className="h-32 w-32 mx-auto mb-6"
             />

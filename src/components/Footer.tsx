@@ -10,7 +10,7 @@ const Footer = () => {
           <div className="space-y-4">
             <div className="flex items-center space-x-3">
               <img
-                src="/lovable-uploads/28a7115f-c755-4db8-b44b-3bd61b9a8cea.png"
+                src="/lovable-uploads/Prevail_Logo-reverse.png"
                 alt="Prevail Foundation Logo"
                 className="h-12 w-12"
               />
