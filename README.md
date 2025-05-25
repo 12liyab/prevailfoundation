@@ -2,7 +2,7 @@
 
 ## Project info
 
-**URL**: (https://github.com/12liyab/prevailfoundationweb)
+**URL**: (https://github.com/12liyab/prevailfoundation)
 
 ## How can I edit this code?
 
