@@ -100,6 +100,9 @@ const Contact = () => {
                       <div>
                         <h3 className="text-lg font-semibold text-primary-800 mb-2">Email</h3>
                         <p className="text-gray-600">info@prevailfoundation.org</p>
+                        <p className="text-gray-600">+233 0 24 488264</p>
+                        <p className="text-gray-600">+233264488264</p>
+                        <p className="text-gray-600">+233274801626</p>
                       </div>
                     </div>
                   </CardContent>
@@ -113,7 +116,7 @@ const Contact = () => {
                       </div>
                       <div>
                         <h3 className="text-lg font-semibold text-primary-800 mb-2">Location</h3>
-                        <p className="text-gray-600">Greater Accra<br />Ghana, West Africa</p>
+                        <p className="text-gray-600">Tema, Community 8 Sraha<br />Street , 5th Avenue AC 16</p>
                       </div>
                     </div>
                   </CardContent>
