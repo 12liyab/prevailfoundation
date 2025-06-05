@@ -55,7 +55,7 @@ const Footer = () => {
               </div>
               <div className="flex items-center space-x-2">
                 <MapPin className="h-4 w-4 text-cyan-400" />
-                <span className="text-gray-300 text-sm">Greater Accra, Ghana, West Africa</span>
+                <span className="text-gray-300 text-sm">Tema, Community 8 Sraha Street , 5th Avenue AC 16</span>
               </div>
             </div>
           </div>
