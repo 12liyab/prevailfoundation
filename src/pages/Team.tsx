@@ -9,7 +9,7 @@ const Team = () => {
       position: 'Founder and Leader',
       email: 'nana@prevailfoundation.org',
       description: 'Visionary leader dedicated to creating positive change in communities across Ghana.',
-      image: '/lovable-uploads/31994c74-10d6-4ee8-b8d9-eecc80be2d19.png',
+      image: '/lovable-uploads/Nana.png',
       fallback: 'NA'
     },
     {
@@ -17,18 +17,24 @@ const Team = () => {
       position: 'Chief of Operations',
       email: 'pascal@prevailfoundation.org',
       description: 'Experienced operations professional ensuring efficient program delivery and organizational excellence.',
+      image: '/lovable-uploads/Pascal obing-poku (operations).png',
+      fallback: 'PO'
     },
     {
       name: 'Sena Avutey ',
       position: 'Financial Secretary',
       email: 'Sena@prevailfoundation.org',
       description: 'Dedicated to maintaining financial transparency and ensuring responsible stewardship of resources',
+      image: '/lovable-uploads/Sena Avutey_finance.png',
+      fallback: 'SA'
     },
     {
       name: 'Mel Kharis Tokoli',
       position: 'Researcher',
       email: 'Mel@prevailfoundation.org',
       description: 'The ability to critically evaluate information, identify patterns, and draw logical conclusions is paramount.',
+      image: '/lovable-uploads/Mel Kharis Tokoli (research).png',
+      fallback: 'MK'
     },
   ];
 
