@@ -17,10 +17,16 @@ const Team = () => {
       description: 'Experienced operations professional ensuring efficient program delivery and organizational excellence.',
     },
     {
-      name: 'Financial Secretary',
+      name: 'Sena Avutey ',
       position: 'Financial Secretary',
-      email: 'finance@prevailfoundation.org',
-      description: 'Dedicated to maintaining financial transparency and ensuring responsible stewardship of resources.',
+      email: 'Sena@prevailfoundation.org',
+      description: 'Dedicated to maintaining financial transparency and ensuring responsible stewardship of resources',
+    },
+    {
+      name: 'Mel Kharis Tokoli',
+      position: 'Researcher',
+      email: 'Mel@prevailfoundation.org',
+      description: 'The ability to critically evaluate information, identify patterns, and draw logical conclusions is paramount.',
     },
   ];
 
