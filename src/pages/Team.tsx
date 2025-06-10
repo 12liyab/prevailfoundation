@@ -1,14 +1,16 @@
 
 import { Card, CardContent } from '@/components/ui/card';
-import { Mail, User } from 'lucide-react';
-
+import { Mail } from 'lucide-react';
+import { Avatar, AvatarImage, AvatarFallback } from '@/components/ui/avatar';
 const Team = () => {
   const teamMembers = [
     {
-      name: 'Nana Affum',
+     name: 'Nana Affum',
       position: 'Founder and Leader',
       email: 'nana@prevailfoundation.org',
       description: 'Visionary leader dedicated to creating positive change in communities across Ghana.',
+      image: '/lovable-uploads/31994c74-10d6-4ee8-b8d9-eecc80be2d19.png',
+      fallback: 'NA'
     },
     {
       name: 'Pascal Obeng-Poku',
@@ -59,10 +61,13 @@ const Team = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {teamMembers.map((member, index) => (
               <Card key={index} className="group hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2">
-                <CardContent className="p-8 text-center">
-                  <div className="w-24 h-24 bg-gradient-to-r from-primary-600 to-cyan-500 rounded-full flex items-center justify-center mx-auto mb-6">
-                    <User className="h-12 w-12 text-white" />
-                  </div>
+               <CardContent className="p-8 text-center">
+                  <Avatar className="w-24 h-24 mx-auto mb-6">
+                    <AvatarImage src={member.image} alt={member.name} />
+                    <AvatarFallback className="bg-gradient-to-r from-primary-600 to-cyan-500 text-white text-lg font-semibold">
+                      {member.fallback}
+                    </AvatarFallback>
+                  </Avatar>
                   <h3 className="text-xl font-bold text-primary-800 mb-2">{member.name}</h3>
                   <p className="text-cyan-600 font-semibold mb-4">{member.position}</p>
                   <p className="text-gray-600 mb-6">{member.description}</p>
