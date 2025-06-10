@@ -57,7 +57,7 @@ const Team = () => {
         </div>
       </section>
 
-      {/* Team Members */}
+       {/* Team Members */}
       <section className="py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
@@ -67,7 +67,7 @@ const Team = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {teamMembers.map((member, index) => (
               <Card key={index} className="group hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2">
-               <CardContent className="p-8 text-center">
+                <CardContent className="p-8 text-center">
                   <Avatar className="w-24 h-24 mx-auto mb-6">
                     <AvatarImage src={member.image} alt={member.name} />
                     <AvatarFallback className="bg-gradient-to-r from-primary-600 to-cyan-500 text-white text-lg font-semibold">
