@@ -67,7 +67,7 @@ const Footer = () => {
             <span className="text-gray-300 text-sm">Made with love for the community</span>
           </div>
           <p className="text-gray-400 text-sm">
-            © 2025 thenovus.solutuons. All rights reserved.
+            © 2026 thenovus.solutuons. All rights reserved.
           </p>
           <div className="flex justify-center space-x-6 mt-4">
             <Link to="/privacy" className="text-gray-400 hover:text-cyan-400 text-sm transition-colors">Privacy Policy</Link>
